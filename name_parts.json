@@ -1,23 +1,28 @@
 {
 	"consonants": [
-		"b",
-		"c",
 		"d",
 		"f",
 		"g",
-		"h",
 		"l",
 		"m",
 		"n",
 		"p",
 		"r",
 		"s",
-		"t",
+		"t"
+	],
+	"start_consonants": [
+		"b",
+		"c",
+		"h",
 		"v",
-		"bj",
 		"ch",
+		"bj",
 		"gl",
 		"gr",
+		"tr"
+	],
+	"end_consonants": [
 		"rk",
 		"rn",
 		"ts"
@@ -36,6 +41,15 @@
 	"titles": [
 		"Fair",
 		"Swift",
-		"Mighty"
+		"Mighty",
+		"Noble",
+		"Wise",
+		"Mad",
+		"Calm",
+		"Tall",
+		"Red",
+		"Brave",
+		"Silent",
+		"Slayer"
 	]
 }
