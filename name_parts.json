@@ -23,6 +23,8 @@
 		"dr",
 		"gl",
 		"gr",
+		"pl",
+		"pr",
 		"tr"
 	],
 	"end_consonants": [
@@ -45,6 +47,7 @@
 		"ei",
 		"ey",
 		"ie",
+		"io",
 		"ou"
 	],
 	"titles": [

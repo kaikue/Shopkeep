@@ -28,7 +28,6 @@ class NameGenerator(object):
         if random.randrange(3) == 0:
             name += " the " + self.random_title()
         
-        
         #capitalize first letter
         name = name[0].capitalize() + name[1:]
         
