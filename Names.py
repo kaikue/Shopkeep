@@ -13,9 +13,9 @@ class NameGenerator(object):
         self.titles = data["titles"]
         
     def generate_name(self):
-        #pick number of syllables- 1/6 chance of 1, 1/2 chance of 2, 1/3 chance of 3
+        #pick number of syllables- 1/6 chance of 1, 2/3 chance of 2, 1/6 chance of 3
         choice = random.randrange(6)
-        num_syllables = 1 if choice == 0 else 3 if choice > 3 else 2
+        num_syllables = 1 if choice == 0 else 3 if choice == 1 else 2
         
         name = ""
         for _ in range(num_syllables):
