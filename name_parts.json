@@ -1,0 +1,41 @@
+{
+	"consonants": [
+		"b",
+		"c",
+		"d",
+		"f",
+		"g",
+		"h",
+		"l",
+		"m",
+		"n",
+		"p",
+		"r",
+		"s",
+		"t",
+		"v",
+		"bj",
+		"ch",
+		"gl",
+		"gr",
+		"rk",
+		"rn",
+		"ts"
+	],
+	"vowels": [
+		"a",
+		"e",
+		"i",
+		"o",
+		"u",
+		"y",
+		"ei",
+		"ey",
+		"ou"
+	],
+	"titles": [
+		"Fair",
+		"Swift",
+		"Mighty"
+	]
+}

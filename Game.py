@@ -1,6 +1,7 @@
 import pygame
 from pygame.locals import DOUBLEBUF
 import sys
+import Names
 
 #Global constants
 SCREEN_WIDTH = 640
@@ -36,6 +37,9 @@ def start():
     #Start the player at [100, 100]
     global player_pos
     player_pos = [100, 100]
+    
+    global names
+    names = Names.NameGenerator("name_parts.json")
     
     #Start the game loop
     run()
@@ -77,6 +81,10 @@ def update():
     for event in pygame.event.get():
         if event.type == pygame.locals.QUIT:
             sys.exit(0)
+        elif event.type == pygame.locals.KEYDOWN:
+            if event.key == pygame.K_SPACE:
+                for _ in range(10):
+                    print(names.generate_name())
 
 def render():
     #Only use this function for graphical rendering.
