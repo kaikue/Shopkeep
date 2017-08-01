@@ -10,16 +10,23 @@ class NameGenerator(object):
         self.vowels = data["vowels"]
         
     def generate_name(self):
+        #pick number of syllables- 1/6 chance of 1, 1/2 chance of 2, 1/3 chance of 3
         choice = random.randrange(6)
         num_syllables = 1 if choice == 0 else 3 if choice > 3 else 2
+        
         name = ""
         for _ in range(num_syllables):
             name += self.generate_syllable()
+            
+            #prevent single-character names
             if len(name) == num_syllables == 1:
                 name += self.generate_syllable()
         
         #TODO titles ("the X")
+        
+        #capitalize first letter
         name = name[0].capitalize() + name[1:]
+        
         return name
     
     def generate_syllable(self):
