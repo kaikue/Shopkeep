@@ -20,6 +20,7 @@
 		"bj",
 		"br",
 		"ch",
+		"dj",
 		"dr",
 		"gl",
 		"gr",
@@ -32,9 +33,11 @@
 		"ld",
 		"lf",
 		"ll",
+		"nn",
 		"rk",
 		"rn",
 		"rt",
+		"st",
 		"ts"
 	],
 	"vowels": [
@@ -95,6 +98,8 @@
 		"Strong",
 		"Unlucky",
 		"Valiant",
+		"Jolly",
+		"Magnanimous",
 		"Icy",
 		"River",
 		"Mountain",
